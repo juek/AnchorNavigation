@@ -1,0 +1,34 @@
+/*
+########################################################################
+CSS for Typesetter CMS plugin Anchor Navigation - editor component
+Author: J. Krausz
+Date: 2018-07-09
+Version 1.0-b1
+########################################################################
+*/
+
+#anchor-nav-editor-options label {
+  position: relative;
+  display: block;
+  line-height: 30px;
+}
+
+#anchor-nav-editor-options select.ckeditor_control {
+  position: relative;
+  float: right;
+  display: block;
+  width: 50%;
+  height: 30px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  background:#fcfcfc url(img/select_arr.png) right center no-repeat;
+  background-size:22px 16px;
+  padding:4px 26px 4px 0;
+  cursor: pointer;
+}
+
+#anchor-nav-editor-options select.ckeditor_control::-ms-expand { 
+  display: none; 
+}
+

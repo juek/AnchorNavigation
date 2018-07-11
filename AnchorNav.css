@@ -1,0 +1,18 @@
+/*
+######################################################################
+CSS for for Typesetter CMS plugin Anchor Navigation
+Author: J. Krausz
+Date: 2018-07-09
+Version 1.0-b1
+######################################################################
+*/
+
+.anchor-navigation-admin-notice {
+  background: #FF851B;
+  color: #fff;
+  padding: 0.5em; 
+}
+
+body:not(.gpAdmin) .anchor-navigation-admin-notice {
+  display: none!important;
+}
