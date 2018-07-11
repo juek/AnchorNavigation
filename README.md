@@ -29,7 +29,7 @@ English only as of ver. 1.0-b1
 ## Manual Installation
 1. Download the [master ZIP archive](https://github.com/juek/AnchorNavigation/archive/master.zip)
 2. Upload the extracted folder 'AnchorNavigation-master' to your server into the /addons directory
-3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; AnchorNavigation
+3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; Anchor Navigation
 
 ## License
 GPL 2 (same as Typesetter CMS).
