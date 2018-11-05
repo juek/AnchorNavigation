@@ -113,7 +113,7 @@ var AnchorNav = {
     var speed = typeof(speed) != "undefined" ? speed : AnchorNav.scrollspeed;
     var id_or_name = href.substr(href.lastIndexOf('#') + 1);
     var $id =     $("#" + id_or_name);
-    var $name =   $("a[name='" + id_or_name + "]'");
+    var $name =   $("a[name='" + id_or_name + "']");
     if( $id.length + $name.length < 1 ) {
       /* DEBUG */ if( AnchorNav.debug ){ console.log("No elements with id or name " + id_or_name + " existing -> exit"); }
       return;
